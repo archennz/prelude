@@ -16,6 +16,7 @@
     ("5846b39f2171d620c45ee31409350c1ccaddebd3f88ac19894ae15db9ef23035" "8b58ef2d23b6d164988a607ee153fd2fa35ee33efc394281b1028c2797ddeebb" default)))
  '(elpy-rpc-python-command "python3")
  '(fci-rule-color "#3C3D37")
+ '(global-undo-tree-mode nil)
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
    (quote

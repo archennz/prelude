@@ -12,10 +12,12 @@
 ;;pipenv settings
 ;;(setq elpy-rpc-virtualenv-path current)
 
+;; indentation lines
 (use-package highlight-indent-guides
   :config (setq highlight-indent-guides-method 'character)
   :hook (prog-mode . highlight-indent-guides-mode))
 
+;; python related packages
 (use-package elpy
   :init(defun elpy--my-config ()
            (highlight-indentation-mode 0))
@@ -25,6 +27,11 @@
 (use-package pipenv
   :hook (python-mode . pipenv-mode))
 
+;; javascript related packages
+;;(require 'rjsx-mode)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
+
+;; other general settings
 (use-package ivy
   :diminish)
 

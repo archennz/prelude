@@ -10,10 +10,10 @@
  '(company-quickhelp-color-foreground "#DCDCCC")
  '(compilation-message-face (quote default))
  '(cursor-type (quote bar))
- '(custom-enabled-themes (quote (monokai)))
+ '(custom-enabled-themes (quote (monokai-pro)))
  '(custom-safe-themes
    (quote
-    ("5846b39f2171d620c45ee31409350c1ccaddebd3f88ac19894ae15db9ef23035" "8b58ef2d23b6d164988a607ee153fd2fa35ee33efc394281b1028c2797ddeebb" default)))
+    ("f2c35f8562f6a1e5b3f4c543d5ff8f24100fae1da29aeb1864bbc17758f52b70" "5846b39f2171d620c45ee31409350c1ccaddebd3f88ac19894ae15db9ef23035" "8b58ef2d23b6d164988a607ee153fd2fa35ee33efc394281b1028c2797ddeebb" default)))
  '(elpy-rpc-python-command "python3")
  '(fci-rule-color "#3C3D37")
  '(global-undo-tree-mode nil)
@@ -28,6 +28,7 @@
      ("#A75B00" . 70)
      ("#F309DF" . 85)
      ("#3C3D37" . 100))))
+ '(js-indent-level 2)
  '(line-spacing 0.15)
  '(magit-diff-use-overlays nil)
  '(nrepl-message-colors
@@ -35,7 +36,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (web-mode doom-modeline monokai-pro-theme highlight-indent-guides use-package pipenv elpy company-anaconda anaconda-mode helm-ag helm-descbinds monokai-theme json-mode js2-mode rainbow-mode elisp-slime-nav counsel swiper ivy helm-projectile helm lsp-ui company-lsp rainbow-delimiters exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree super-save smartrep smartparens operate-on-number nlinum move-text magit projectile imenu-anywhere hl-todo guru-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major crux browse-kill-ring anzu ag ace-window)))
+    (rjsx-mode yasnippet-snippets yaml-mode web-mode doom-modeline monokai-pro-theme highlight-indent-guides use-package pipenv elpy company-anaconda anaconda-mode helm-ag helm-descbinds monokai-theme json-mode js2-mode rainbow-mode elisp-slime-nav counsel swiper ivy helm-projectile helm lsp-ui company-lsp rainbow-delimiters exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree super-save smartrep smartparens operate-on-number nlinum move-text magit projectile imenu-anywhere hl-todo guru-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major crux browse-kill-ring anzu ag ace-window)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")

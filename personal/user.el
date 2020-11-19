@@ -31,6 +31,18 @@
 ;;(require 'rjsx-mode)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
 
+;; typescript
+(add-to-list 'auto-mode-alist '("\\.tsx\\'" . typescript-mode))
+
+;; configuring snippets
+(use-package yasnippet
+  :ensure t
+  :config (use-package yasnippet-snippets
+            :ensure t)
+  (yas-reload-all))
+(yas-global-mode 1)
+
+
 ;; other general settings
 (use-package ivy
   :diminish)

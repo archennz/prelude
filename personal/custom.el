@@ -36,7 +36,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (rjsx-mode yasnippet-snippets yaml-mode web-mode doom-modeline monokai-pro-theme highlight-indent-guides use-package pipenv elpy company-anaconda anaconda-mode helm-ag helm-descbinds monokai-theme json-mode js2-mode rainbow-mode elisp-slime-nav counsel swiper ivy helm-projectile helm lsp-ui company-lsp rainbow-delimiters exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree super-save smartrep smartparens operate-on-number nlinum move-text magit projectile imenu-anywhere hl-todo guru-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major crux browse-kill-ring anzu ag ace-window)))
+    (tern-context-coloring tern rjsx-mode yasnippet-snippets yaml-mode web-mode doom-modeline monokai-pro-theme highlight-indent-guides use-package pipenv elpy company-anaconda anaconda-mode helm-ag helm-descbinds monokai-theme json-mode js2-mode rainbow-mode elisp-slime-nav counsel swiper ivy helm-projectile helm lsp-ui company-lsp rainbow-delimiters exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree super-save smartrep smartparens operate-on-number nlinum move-text magit projectile imenu-anywhere hl-todo guru-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major crux browse-kill-ring anzu ag ace-window)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")

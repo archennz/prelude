@@ -28,8 +28,10 @@
   :hook (python-mode . pipenv-mode))
 
 ;; javascript related packages
-;;(require 'rjsx-mode)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
+
+(use-package tern
+  :hook (js2-mode . (lambda () (tern-mode t))))
 
 ;; typescript
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . typescript-mode))

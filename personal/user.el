@@ -7,7 +7,9 @@
 
 (blink-cursor-mode 1)
 
-
+;; theme
+(use-package monokai-theme)
+(load-theme 'monokai t)
 
 ;; enable elpy
 ;; (elpy-enable)

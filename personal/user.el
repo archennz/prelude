@@ -1,3 +1,6 @@
+(eval-when-compile
+  (require 'use-package))
+
 (global-hl-line-mode 0)
 
 (scroll-bar-mode -1)
